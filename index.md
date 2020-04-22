@@ -4,7 +4,12 @@ Below is a list of projects that the Scala Center funded or supported. You can l
 
 # IDE
 
-[Metals](https://scalameta.org/metals/) provides IDE features to a large number of code editors (VS Code, Sublime, etc.). It does so by implementing and extending the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/) with endpoints for compiling, running, testing, and debugging Scala programs. The resulting communication protocol is the [Build Server Protocol](https://build-server-protocol.github.io/). This protocol was first implemented in [bloop](https://scalacenter.github.io/bloop/), a Scala compiler daemon that can improve the compilation times of Scala projects.
+
+The [Build Server Protocol](https://build-server-protocol.github.io/) is a protocol inspired in the Language Server Protocol to enable build clients such as language servers or editors to import a build, receive compiler diagnostics and run build tool tasks such as compile, run or test in a Scala build. This protocol was created by the Scala Center to support a rich IDE experience with Metals and Bloop.
+
+[Metals](https://scalameta.org/metals/) is a Scala [language server](https://microsoft.github.io/language-server-protocol/) that provides rich IDE features to a large number of code editors (VS Code, Sublime, vim, Emacs etc). Metals is a client of the [Build Server Protocol](https://build-server-protocol.github.io/).
+
+[Bloop](https://scalacenter.github.io/bloop/) is a toolchain and build server that compiles, tests, runs and debugs Scala and Java code. Bloop supports build tools such as sbt, Maven, Gradle and mill and provides extensible ways for build tools and editors to integrate with it.
 
 [Scastie](https://scastie.scala-lang.org/) allows you to start using and discovering Scala in your browser without installing anything locally. You can even experiment with community libraries, or different platforms such as [Scala.js](https://www.scala-js.org/). It can also be used to share or to embed code in your documentation.
 
