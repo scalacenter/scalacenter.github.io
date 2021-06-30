@@ -28,7 +28,7 @@ In addition to documentation, we also produce [online courses](https://docs.scal
 
 # Scala Native
 
-[Scala Native](https://scala-native.readthedocs.io/en/v0.3.9-docs/) is an optimizing ahead-of-time compiler and lightweight, managed runtime designed specifically for Scala. It is the Doctoral work of Denys Shabalin at EPFL. The Scala Centre took over the project in January 2020.
+[Scala Native](https://scala-native.readthedocs.io/en/latest/) is an optimizing ahead-of-time compiler and lightweight, managed runtime designed specifically for Scala. It is the Doctoral work of Denys Shabalin at EPFL. The Scala Centre took over the project in January 2020.
 
 Similar to Scala.js, which compiles Scala to JavaScript, Scala Native compiles Scala to native code. It uses LLVM as the back-end target, which then compiles to machine code.
 
